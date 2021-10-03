@@ -1,7 +1,13 @@
-# Technologie-internetowe
-Polecenie do fill-in-blanks:
-Pobierz z API wymagane dane do tabeli CurrencyRateData. Tabela zawierać będzie informację o średnich 
-notowaniach USD w stosunku do polskiej złotówki w wybranym przez siebie okresie (zależne od danych 
-dostępnych w bazie danych) - niech to będą minimum 2 lata. Dni dla których nie podano notowań (takie 
-jak weekendy) uzupełnić danymi z pierwszego dnia wstecz, dla którego jest wpisana wartość średniego 
-kursu. 
+# Second Python assignment.
+## Created during Data Warehouse class.
+## Technologies:
+* Python,
+* Python libraries:
+  * requests,
+  * pymssql.
+## This assignment included:
+* Getting to know the NBP API.
+* Inserting the data from the API into a table.
+* Filled missing values with data from previous records to assure continuity.
+* Established a connection to a SQL Server and pushed gathered data into a new table in it.
+
